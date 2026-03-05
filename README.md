@@ -1,6 +1,6 @@
-# Credit Fraud Detection & Model Optimization
+# Telco Customer Churn Prediction & Model Optimization
 
-This project focuses on building a robust machine learning pipeline to identify fraudulent transactions. The primary challenge addressed is **class imbalance**, where the goal is to maximize model precision and compare performance using advanced evaluation metrics.
+This project focuses on predicting customer attrition (churn) using the popular Telco dataset. By identifying high-risk customers, businesses can proactively offer incentives to improve retention. The project emphasizes handling **imbalanced classes** and optimizing for **Precision** to ensure retention efforts are targeted accurately.
 
 ---
 
