@@ -31,3 +31,14 @@ Instead of relying on simple accuracy, the models were compared using the **Prec
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, XGBoost, Matplotlib, Seaborn
 
+## 🛠️ What needs to be processed further (Future Scope)
+To move this project toward a **production-ready** state, the following advanced methods will be implemented:
+
+### 1. Feature Selection & Engineering
+* **Recursive Feature Elimination (RFE):** Automatically removing low-impact features to reduce model noise.
+* **Domain-Specific Features:** Creating ratios (e.g., *MonthlyCharges / Tenure*) to capture customer behavior trends over time.
+
+### 2. Advanced Imbalance Handling
+* **SMOTE (Synthetic Minority Over-sampling Technique):** Moving beyond class weights by generating synthetic examples of the "Churn" class to improve the decision boundary.
+* **Calibration Curves:** Ensuring that the predicted probability (e.g., "80% chance of churn") aligns with the actual observed frequency to make the model reliable for business decision-making.
+
